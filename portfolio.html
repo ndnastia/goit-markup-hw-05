@@ -209,7 +209,7 @@
     </main>
 
     <!--Footer-->
-   <footer class="footer">
+  <footer class="footer">
         <div class="container">
         <div class="footer-container">
         <div class="address-container">
@@ -223,7 +223,8 @@
         </ul>
         </address>
         </div>
-        <div>
+
+        <div class="join-container">
         <h3 class="footer-join">Приєднуйтесь</h3>
         <ul class="footer-icon">
                         <li class="socials-icon">
@@ -256,8 +257,29 @@
                         </li>
         </ul>
         </div>
+            <div>
+            <form class="subscribe-form" name="subscribe" autocomplete="on" novalidate>
+                <div>
+                    <div class="subscribe">
+                        <label class="" for="user_email">Підпишіться на розсилку</label>
+                    </div>
+                    <div class="form-filed">
+                        <input class="subscribe-email" id="user_email" type="email" name="email" placeholder="E-mail">
+                    </div>
+                    
+                </div>
+                <div>
+                    <button class="subscribe-button" type="submit">Підписатися
+                        <svg width="20" height="20">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>  
+                </div>
+            </form>
+            </div>
         </div>
         </div>
     </footer>
+    
 </body>
 </html>
